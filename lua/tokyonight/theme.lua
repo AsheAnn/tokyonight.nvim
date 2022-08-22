@@ -350,7 +350,7 @@ function M.setup(config)
     DiagnosticWarning = { link = "DiagnosticWarn" },
     DiagnosticInformation = { link = "DiagnosticInfo" },
 
-    LspFloatWinNormal = { bg = c.bg_float },
+    LspFloatWinNormal = { bg = c.bg_sidebar },
     LspFloatWinBorder = { fg = c.border_highlight },
     LspSagaBorderTitle = { fg = c.cyan },
     LspSagaHoverBorder = { fg = c.blue },
