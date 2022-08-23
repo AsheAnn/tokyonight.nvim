@@ -342,8 +342,7 @@ function M.setup(config)
     WhichKeyGroup = { fg = c.blue },
     WhichKeyDesc = { fg = c.magenta },
     WhichKeySeperator = { fg = c.comment },
-    WhichKeySeparator = { fg = c.comment },
-    WhichKeyFloat = { bg = c.bg_sidebar },
+    WhichKeyFloat = { bg = c.bg_dark },
     WhichKeyValue = { fg = c.dark5 },
 
     -- LspSaga
