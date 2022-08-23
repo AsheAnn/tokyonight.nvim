@@ -49,8 +49,8 @@ function M.setup(config)
     Normal = { fg = c.fg, bg = config.transparent and c.none or c.bg }, -- normal text
     NormalNC = { fg = c.fg, bg = config.transparent and c.none or c.bg }, -- normal text in non-current windows
     NormalSB = { fg = c.fg_sidebar, bg = c.bg_sidebar }, -- normal text in non-current windows
-    NormalFloat = { fg = c.fg, bg = c.bg_float }, -- Normal text in floating windows.
-    FloatBorder = { fg = c.border_highlight, bg = c.bg_float },
+    NormalFloat = { fg = c.fg, bg = c.bg_sidebar }, -- Normal text in floating windows.
+    FloatBorder = { fg = c.border_highlight, bg = c.bg_sidebar },
     Pmenu = { bg = c.bg_popup, fg = c.fg }, -- Popup menu: normal item.
     PmenuSel = { bg = util.darken(c.fg_gutter, 0.8) }, -- Popup menu: selected item.
     PmenuSbar = { bg = util.lighten(c.bg_popup, 0.95) }, -- Popup menu: scrollbar.
@@ -341,8 +341,8 @@ function M.setup(config)
     WhichKey = { fg = c.cyan },
     WhichKeyGroup = { fg = c.blue },
     WhichKeyDesc = { fg = c.magenta },
-    WhichKeySeperator = { fg = c.comment, bg = c.none  },
-    WhichKeyFloat = { bg = c.none },
+    WhichKeySeperator = { fg = c.comment },
+    WhichKeyFloat = { bg = c.bg_sidebar },
     WhichKeyValue = { fg = c.dark5 },
 
     -- LspSaga
