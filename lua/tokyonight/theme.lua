@@ -341,7 +341,7 @@ function M.setup(config)
     WhichKey = { fg = c.cyan },
     WhichKeyGroup = { fg = c.blue },
     WhichKeyDesc = { fg = c.magenta },
-    WhichKeySeperator = { fg = c.comment },
+    WhichKeySeperator = { fg = c.comment, bg = c.none  },
     WhichKeyFloat = { bg = c.none },
     WhichKeyValue = { fg = c.dark5 },
 
