@@ -342,7 +342,7 @@ function M.setup(config)
     WhichKeyGroup = { fg = c.blue },
     WhichKeyDesc = { fg = c.magenta },
     WhichKeySeperator = { fg = c.comment },
-    WhichKeyFloat = { bg = c.bg_dark },
+    WhichKeyFloat = { bg = c.none },
     WhichKeyValue = { fg = c.dark5 },
 
     -- LspSaga
@@ -419,8 +419,8 @@ function M.setup(config)
     LightspeedUnlabeledMatch = { fg = c.blue2, style = "bold" },
 
     -- Cmp
-    CmpDocumentation = { fg = c.fg, bg = c.bg_float },
-    CmpDocumentationBorder = { fg = c.border_highlight, bg = c.bg_float },
+    CmpDocumentation = { fg = c.fg, bg = c.bg_sidebar },
+    CmpDocumentationBorder = { fg = c.border_highlight, bg = c.bg_sidebar },
 
     CmpItemAbbr = { fg = c.fg, bg = c.none },
     CmpItemAbbrDeprecated = { fg = c.fg_gutter, bg = c.none, style = "strikethrough" },
