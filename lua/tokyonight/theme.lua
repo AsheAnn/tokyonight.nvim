@@ -427,8 +427,8 @@ function M.setup(config)
     CmpItemAbbrMatch = { fg = c.blue1, bg = c.none },
     CmpItemAbbrMatchFuzzy = { fg = c.blue1, bg = c.none },
 
-    CmpItemKindDefault = { fg = c.fg_dark, bg = c.none },
-    CmpItemMenu = { fg = c.comment, bg = c.bg_sidebar },
+    CmpItemKindDefault = { fg = c.fg_dark, bg = c.bg_sidebar },
+    CmpItemMenu = { fg = c.fg, bg = c.bg_sidebar },
 
     CmpItemKindKeyword = { fg = c.cyan, bg = c.none },
 
