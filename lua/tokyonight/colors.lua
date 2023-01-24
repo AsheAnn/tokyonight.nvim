@@ -53,9 +53,9 @@ function M.setup(config)
   util.day_brightness = config.dayBrightness
 
   colors.diff = {
-    add = util.darken(colors.green2, 0.35),
-    delete = util.darken(colors.red1, 0.35),
-    change = util.darken(colors.blue7, 0.35),
+    add = util.darken(colors.green2, 0.2),
+    delete = util.darken(colors.blue7, 0.2),
+    change = util.darken(colors.red1, 0.2),
     text = colors.blue7,
   }
 
