@@ -55,7 +55,7 @@ function M.setup(config)
   colors.diff = {
     add = util.darken(colors.green2, 0.25),
     delete = util.darken(colors.red1, 0.25),
-    change = util.darken(colors.blue7, 0.15),
+    change = util.darken(colors.orange, 0.17),
     text = colors.blue7,
   }
 
