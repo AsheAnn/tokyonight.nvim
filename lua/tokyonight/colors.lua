@@ -30,7 +30,7 @@ function M.setup(config)
     blue2 = "#0db9d7",
     blue5 = "#89ddff",
     blue6 = "#B4F9F8",
-    blue7 = "#223161",
+    blue7 = "#9732c2",
     magenta = "#bb9af7",
     magenta2 = "#ff007c",
     purple = "#9d7cd8",
@@ -55,7 +55,7 @@ function M.setup(config)
   colors.diff = {
     add = util.darken(colors.green2, 0.25),
     delete = util.darken(colors.red1, 0.25),
-    change = util.darken(colors.blue2, 0.25),
+    change = util.darken(colors.blue7, 0.25),
     text = colors.blue7,
   }
 
