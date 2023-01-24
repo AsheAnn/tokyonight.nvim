@@ -30,7 +30,7 @@ function M.setup(config)
     blue2 = "#0db9d7",
     blue5 = "#89ddff",
     blue6 = "#B4F9F8",
-    blue7 = "#223161",
+    blue7 = "#4e78a6",
     magenta = "#bb9af7",
     magenta2 = "#ff007c",
     purple = "#9d7cd8",
@@ -38,7 +38,7 @@ function M.setup(config)
     yellow = "#e0af68",
     green = "#49ff86",
     green1 = "#73daca",
-    green2 = "#29e36a",
+    green2 = "#52bf6f",
     teal = "#1abc9c",
     red = "#f7768e",
     red1 = "#ff001e",
@@ -53,9 +53,9 @@ function M.setup(config)
   util.day_brightness = config.dayBrightness
 
   colors.diff = {
-    add = util.darken(colors.green2, 0.2),
-    delete = util.darken(colors.blue7, 0.2),
-    change = util.darken(colors.red1, 0.2),
+    add = util.darken(colors.green2, 0.25),
+    delete = util.darken(colors.red1, 0.25),
+    change = util.darken(colors.blue7, 0.15),
     text = colors.blue7,
   }
 
